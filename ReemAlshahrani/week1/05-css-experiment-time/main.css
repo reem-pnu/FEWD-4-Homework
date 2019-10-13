@@ -1,0 +1,57 @@
+body{
+  background: antiquewhite;
+  outline: 2px double seagreen;
+}
+.hp-issue-index {
+  text-decoration: underline;
+  color: darkseagreen;
+}
+
+ul.hp-issue-article-list {
+  color: gray;
+
+}
+.hp-issue-container{
+background-color: antiquewhite;
+font: 200;
+}
+.row {
+  display: flex;
+  background: lightblue;
+  border: 1px solid thistle;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 10px;
+  /* Should be removed. Only for demonstration */
+}
+  img.firstpic{
+    border: 4px solid thistle;
+    width: 450px;
+  }
+.hp-news-block-container{
+color:steelblue;
+border: 1px dotted thistle;
+text-align: center;
+}
+.hp-news-block-container-2
+{
+  text-align: left;
+  color: lightpink;
+  padding: 10px;
+}
+.hp-news-block-container-3{
+  text-align: lift;
+  color:lightgreen;
+  padding: 10px;
+}
+.footer-container{
+  padding: 10px;
+  border: 1px dashed skyblue;
+}
+.spantext{
+  color:lightcoral;
+  background:thistle ;
+}

@@ -1,0 +1,17 @@
+table{
+    border: 2px double mediumseagreen;
+    color:darkblue;
+}
+table th {
+    border: 1px solid lightseagreen;
+    color: lightseagreen ;
+    background: lightpink;
+    font-size: 30px;
+}
+table td{
+    color:lightskyblue;
+    text-align: center;
+    border: 1px solid steelblue;
+    padding: 4px;
+
+}
