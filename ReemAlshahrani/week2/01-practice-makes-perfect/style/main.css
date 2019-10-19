@@ -1,0 +1,75 @@
+.aa{
+text-align: center;
+color: white;
+
+}
+.hp-news-container{
+/* background-color: black; */
+text-align: left;
+padding: 10px;
+font-size: 20px;
+}
+
+.hp-news-block-container-1{
+   
+  
+}
+.hp-news-block-container-2{
+
+}
+.hp-news-block-container-3{
+
+}
+.hp-news-title{
+padding: 2px;  
+text-transform:capitalize;
+margin-top: 0px;
+margin-bottom: 0px;
+
+}
+.hp-news-author{
+    text-transform:uppercase;
+     /* padding:2px; */
+     margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 15px;
+}
+.hp-news-date{
+    text-transform:uppercase;
+    padding:2px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 15px;
+}
+.hp-news-block-container{
+    border: 1px dotted white;
+   margin-top:10px ;
+   margin-right:340px ;
+   margin-left:340px ;
+   margin-bottom:10px ;
+    display: block;
+    background-color: black;
+    /* overflow: auto; */
+    padding: 10px;
+}
+.hp-news-category{
+    text-transform: uppercase;
+    padding:2px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 15px;
+}
+.hp-news-block-container img{
+    padding: auto;
+   margin-right:0px ;
+   margin-left:0px ;
+   margin-bottom:0px ;
+    margin-top: auto;
+    overflow: auto;
+}
+/* .hp-news-block-container hp-news-block-container-1{
+   
+
+} */
+
+ /* اي دف منفصله لها حدود 1 بكسل  */
