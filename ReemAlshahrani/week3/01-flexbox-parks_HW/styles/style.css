@@ -1,0 +1,362 @@
+
+
+/* ======+++++======++++=====+++=== */
+/* ============ DESKTOP RULES ===== */
+/* ======+++++======++++=====+++=== */
+
+/* desktop rules go here */
+
+/* header & nav */
+
+header {
+display: flex;
+justify-content:space-between;
+border-bottom: 3px solid #d0a064;
+background-color: #167C80;
+/* justify-content: flex-end; */
+}
+
+header .logo, header nav {
+  /* 1 property */
+  /* justify-content: flex-end; */
+  
+
+}
+
+/*  */
+.container .aboutrow {
+  /* 1 property */
+  display: flex;
+  flex-direction: row;
+  
+}
+
+
+/* feature */
+
+.feature {
+  /* 1 property */
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-between; */
+  flex-direction: row;
+  display: flex;
+  height: 599px;
+
+}
+.feat-right >p,h3 ,span{
+  padding: 0px;
+  margin: 0px;
+  /* float: right; */
+}
+.feat-left{
+  float: left;
+
+}
+.feat-left>img{
+  width: 650px;
+  height: 590px;
+}
+
+/* cta */
+
+.cta .container {
+display: flex;
+}
+
+
+/* footer */
+
+footer {
+ display: flex;
+ justify-content:space-between ;
+}
+
+
+
+.footer-left {
+display: flex;
+justify-content:space-between ;
+
+/* justify-content: left; */
+
+
+}
+
+.footer-right {
+  /* 1 property */
+  justify-content: right;
+  align-items: right;
+  /* padding: 100px; */
+  margin-left: 150px;
+
+}
+
+/* ======+++++======++++=====+++============================================================================================================= */
+/* ========= DON'T TOUCH!!! ============================================================================================================================= */
+/* ======+++++======++++=====+++================================================================================================================ */
+
+.container {
+  width: 80vw;
+  max-width: 1000px;
+  padding: 50px;
+  box-sizing: border-box;
+  margin: 0px auto;
+
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.4em;
+  font-size: 13px;
+}
+
+
+.logo {
+  padding: 15px;
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+nav ul li {
+  padding: 30px;
+  display: inline;
+  list-style: none;
+}
+ .feat-left {
+   float: left;
+   /* height: 40px;
+   width: 50px; */
+ }
+
+.navigation a {
+  color: white;
+  transition: all 0.2s;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 0.8em; 
+}
+.cta{
+}
+
+
+#hero .hero {
+ 
+  /* flex-direction: column; */
+}
+.hero{
+display: flex;
+justify-content: center;
+text-align: center;
+align-items: center;
+flex-direction: column;
+}
+ a.contactbtn{
+  /* align-items:right; */
+  margin-left: 20px;
+
+}
+.navigation li:hover a {
+  color: #d0a064;
+  transition: all 0.2s;
+}
+
+.hero-cont {
+  background-image: url('../assets/hero.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-color: #555555;
+  background-blend-mode: multiply;
+  padding: 2em;
+}
+
+.hero h2, .hero h1 {
+  color: white;
+  line-height: 1.4em;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 4em;
+  font-weight: bold;
+  padding: 1em 0;
+}
+
+.hero h1 {
+  font-size: 2em;
+  font-style: italic;
+  padding: 0.8em 0; 
+}
+
+.aboutbtn, .contactbtn {
+  display: inline-block;
+  color: #167C80;
+  background-color: white;
+  border-radius: 20px;
+  padding: 5px 15px;
+  text-decoration:none;
+  transition: all 0.2s;
+  /* text-align:center;
+  align-items: center;
+  justify-content: center; */
+}
+
+.aboutbtn:hover, .contactbtn:hover {
+  background-color: #167C80;
+  color: white;
+  transition:all 0.2s;
+}
+
+.container .top {
+  padding: 1.5em 0;
+}
+
+.top h3 {
+  font-size: 2em;
+  line-height: 1.4em;
+  padding: 1em;
+  font-style: italic;
+}
+
+.top p {
+  font-size: 1.5em;
+  line-height: 1.4em;
+}
+
+.aboutrow {
+  background-color: #d0a064;
+  padding: 15px;
+}
+
+.aboutcol {
+  border: 1px solid #fff;
+  padding: 15px;
+  margin: 5px;
+  background-color: #ffe5c5;
+}
+
+.aboutcol h4 {
+  font-size: 1.3em;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #167C80;
+  padding: 0.8em 0;
+}
+
+.feature {
+  background-color: #167C80;
+}
+
+/* .feat-left {
+  width:min-content ;
+  background-image: url('../assets/glacier.jpg'); 
+  background-size:cover;
+   background-position:left;
+} */
+
+.feat-right {
+  padding: 50px;
+
+}
+
+.feat-right p {
+  color: white;
+  margin: 1em 0;
+}
+
+.feat-intro {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: #ffe5c5;
+}
+
+.feat-right h3 {
+  font-size: 2em;
+  line-height: 1.4em;
+  color: white;
+  font-weight: bold;
+}
+
+.cta {
+  background-color: #d0a064;
+}
+
+footer {
+  background-color: #222;
+  color: #ddd;
+  /* padding: 50px; */
+  /* text-align: center; */
+  display: flex;
+  /* flex-direction: column; */
+  /* justify-content:baseline; */
+}
+
+.footernav{
+  padding-right: 60px;
+  justify-content:space-between ;
+
+}
+.footer-col {
+  margin-left: 0px;
+  justify-content:left;
+
+}
+
+
+.footer-col ul li{
+  list-style: none;
+}
+footer a {
+  color: #d0a064;
+  text-decoration: none;
+
+}
+
+input {
+  border: 0px;
+  background-color: #555;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+button {
+  color: #555;
+  background-color: white;
+  border: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  padding: 5px 15px;
+}
+
+.footer-sub {
+ display: flex;
+ justify-content:space-between ;
+ padding-left: 130px;
+ 
+}
+
+
+.cta .container h3 {
+  font-size: 1.5em;
+}
+
+@media screen and (min-width: 1025px) {
+  body {
+    font-size: 16px;
+  }
+
+  footer {
+    text-align: left;
+    padding: 30px 15px 30px 20px;
+  }
+
+}
