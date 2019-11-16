@@ -9,7 +9,7 @@
 /* header & nav */
 
 header {
-display: flex;
+display: flexbox;
 justify-content:space-between;
 border-bottom: 3px solid #d0a064;
 background-color: #167C80;
